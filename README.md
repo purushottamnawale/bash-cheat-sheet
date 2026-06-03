@@ -19,6 +19,13 @@ ls “path/to/directory/"
 ls
 ```
 
+# Python
+
+#### Create a new virtual environment
+```
+python3 -m venv .venv
+```
+
 ##### Install or Update modules from requirements.txt
 ```
 pip3 install -r requirements.txt
