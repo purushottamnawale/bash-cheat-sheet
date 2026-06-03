@@ -22,18 +22,23 @@ ls
 # Python
 
 #### Create a new virtual environment
-```
+```bash
 python3 -m venv .venv
 ```
 
-##### Install or Update modules from requirements.txt
+#### Activate Python .venv
+```bash
+source .venv/bin/activate
 ```
+
+##### Install or Update modules from requirements.txt
+```bash
 pip3 install -r requirements.txt
 ```
 
 
 ##### Install or Update requirements.txt
-```
+```bash
 pip3 freeze > requirements.txt
 ```
 
