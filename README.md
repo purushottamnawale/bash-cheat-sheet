@@ -74,3 +74,16 @@ alias open_all="sysupdate && open_higher_studies && open_latex && open_firefox"
 # Refresh the bash profile
 source ~/.bashrc
 ```
+
+
+
+### Add or Edit Crontab
+```bash
+crontab -e
+```
+
+
+### View Crontab
+```bash
+crontab -l
+```
